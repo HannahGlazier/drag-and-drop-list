@@ -17,7 +17,6 @@ function App() {
     <div className="App">
       <header className="App-header">
           TESTING APP 
-          
       </header>
     </div>
   );
