@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
+// dnd
+import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
+
 function App() {
   const [rooms, setRooms] = useState([])
 
@@ -17,6 +20,7 @@ function App() {
       <header className="App-header">
           TESTING APP 
       </header>
+      
     </div>
   );
 }
